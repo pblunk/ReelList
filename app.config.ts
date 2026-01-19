@@ -5,11 +5,12 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     name: "ReelList",
     slug: "ReelList",
     version: "1.0.0",
+    jsEngine: "hermes",
     orientation: "portrait",
     icon: "./assets/images/icon.png",
     scheme: "reellist",
     userInterfaceStyle: "automatic",
-    newArchEnabled: true,
+    newArchEnabled: false,
     splash: {
         image: "./assets/images/splash-icon.png",
         resizeMode: "contain",
